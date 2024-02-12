@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors({
     // origin: 'http://localhost:5173', // Reemplaza esto con la URL de tu aplicación React
-    origin: 'https://gabyandalex-babyreveal.onrender.com/', // Reemplaza esto con la URL de tu aplicación React
+    origin: 'https://gabyandalex-babyreveal.onrender.com', // Reemplaza esto con la URL de tu aplicación React
     methods: ['GET', 'PUT'], // Ajusta los métodos que deseas permitir
     allowedHeaders: ['Content-Type'], // Permite el encabezado Content-Type
   }));
